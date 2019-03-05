@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: ledzo
+Build-Jdk: 11.0.1
+Implementation-Title: starwars-api
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: desafio
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/starwars-api
+Created-By: Maven Integration for Eclipse
+

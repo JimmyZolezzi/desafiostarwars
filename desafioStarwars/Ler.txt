@@ -1,0 +1,14 @@
+Sobre o projeto
+Versão: Java 8
+banco de dados Mysql
+
+Para configurar o acesso ao banco de dados, basta abrir o seguinte arquivo de configuração
+starwars-api\src\main\resources\application.properties
+
+//Caminho jdbc
+spring.datasource.url=jdbc:mysql://localhost:3306/apistarwars?serverTimezone=UTC&useSSL=false
+//usuario
+spring.datasource.username=root
+//senha:
+spring.datasource.password=admin
+

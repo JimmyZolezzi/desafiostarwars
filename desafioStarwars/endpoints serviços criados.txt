@@ -1,0 +1,32 @@
+Busca endpoint por id (GET)
+Content-Type:application/json
+http://localhost:8080/starwars/banco/planeta/id/2
+
+Busca por nome (GET)
+Content-Type:application/json
+http://localhost:8080/starwars/banco/planetas/marte
+
+Busca planetas banco de dados pagina 1 e total registros por pagina = 10 (GET)
+Content-Type:application/json
+http://localhost:8080/starwars/banco/planetas?page=1&size=10
+
+Busca planetas da api starwars (GET)
+Content-Type:application/json
+http://localhost:8080/starwars/apistarwars/planetas/1
+
+Inseri um novo planeta no banco de dados (POST)
+
+Content-Type:application/json
+http://localhost:8080/starwars/banco/planeta
+
+body exemplo:
+{
+	"nome" : "Mercurio",
+	"clima" : "Quente",
+	"terreno" : "Lava",
+	"aparicoesFilmes" : "1"
+}
+
+
+Deleta um planeta do banco de dados (DELETE):
+http://localhost:8080/starwars/banco/planeta/1
